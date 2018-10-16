@@ -1,0 +1,45 @@
+img {
+    width: 480px;
+}
+.slider-1, .slider-2 {
+    margin: 50px auto;
+    background: #dfdfdf;
+    box-shadow: 0 0 10px #aaa;
+    width: 480px;
+    border-radius: 10px;
+}
+.controls {
+    display: flex;
+    justify-content: center;
+}
+.controls button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    color: #999;
+}
+.controls button:hover {
+    color: #333;
+    cursor: pointer;
+}
+
+/*SLIDER 2*/
+.slider-window {
+    width: 480px;
+    overflow: hidden;
+}
+.slider-2 ul {
+    width: 10000px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+    left: 0;
+}
+.slider-2 li {
+    margin: 0;
+    padding: 0;
+}
